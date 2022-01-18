@@ -31,3 +31,9 @@ odd_numbers = [number for number in numbers if number % 2 != 0 ]
 
 print(even_numbers)
 print(odd_numbers)
+
+numbers = [100, 101, 200, 201, 300, 301]
+
+even_numbers = ['двести' if number == 200 else number for number in numbers if number % 2 == 0]
+
+print(even_numbers)
